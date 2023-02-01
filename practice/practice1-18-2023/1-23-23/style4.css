@@ -1,0 +1,50 @@
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    margin:20px auto;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 
+T H I S   S H O W S   C O N T A I N E R S   
+T O   I L L U S T R A T E   B L O C K   
+A N D   I N L I N E   E L E M E N T S
+* {
+    border: 2px solid blue;
+} */
+
+h1 {
+    text-align: center;
+}
+
+nav, footer {
+    text-align: center;
+}
+
+main p {
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+p {
+    width: 80%;
+}
+
+a {
+    font-size: 1.5em;
+}
