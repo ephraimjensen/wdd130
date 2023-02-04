@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Gluten&display=swap');
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    font-family: Alegreya Sans, Georgia, serif;
 }
 
 #hero-msg h1, #hero-msg h4, .button-box, main section{
@@ -10,6 +14,7 @@ nav a {
     text-align: center;
     color: #F7EDF0;
     text-decoration: none;
+    padding: 35px;
 }
 
 #background {
@@ -18,10 +23,14 @@ nav a {
 
 .logo{
     background-color: #F7EDF0;
+    width: 80px;
 }
 
 body {
     background-color: #F7EDF0;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #29339B;
@@ -36,6 +45,10 @@ nav a:hover {
     background-color: #F7EDF0;
     color: #29339B;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -49,15 +62,21 @@ nav a:hover {
 
 .msg {
     background-color: #F7EDF0;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #29339B;
     color: #F7EDF0;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
     color: #29339B;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -69,7 +88,10 @@ h4{
 }
 .msg p{
     color: #29339B;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
+
 
 
 footer a{
@@ -83,6 +105,7 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -95,4 +118,28 @@ footer p{
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+
+h1, h2{
+    font-family: Gluten, Verdana, sans-serif;
+}
+
+h2{
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin:200px 0;
+}
+.card-img{
+    border: 10px solid #FF3C00;
 }
