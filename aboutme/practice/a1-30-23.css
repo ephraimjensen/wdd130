@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color: gray;
+}
+#hero{
+    width: 100%;
+}
+
+.icon{
+    width: 25%;
+    border-radius: 50%;
+    border: 10px solid  black;
+    margin: 3%;
+}
+
+.icons{
+    text-align: center;
+}
