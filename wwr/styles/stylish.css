@@ -2,7 +2,7 @@
 
 
 #content{
-    max-width: 1600px;
+    max-width: 3200px;
     margin: 0 auto;
     font-family: Alegreya Sans, Georgia, serif;
 }
@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 #background {
-    background-color: #FF3C00;
+    background-color: grey;
 }
 
 .msg {
@@ -107,7 +107,7 @@ footer a{
 }
 
 footer a:hover{
-    color: #FF3C00;
+    color: grey;
 }
 
 .icon{
@@ -116,6 +116,7 @@ footer a:hover{
 }
 
 #hero-img{
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -150,7 +151,7 @@ footer .social img{
     margin:200px 0;
 }
 .card-img{
-    border: 10px solid #FF3C00;
+    border: 10px solid grey;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #29339B;
 }
@@ -168,7 +169,7 @@ nav{
 }
 
 #hero-box{
-    grid-column: 1/3;
+    grid-column: 1/4;
     grid-row: 1/4;
     z-index: -1;
 }
