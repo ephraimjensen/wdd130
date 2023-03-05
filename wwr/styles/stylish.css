@@ -177,7 +177,7 @@ nav{
 #hero-msg{
     grid-row:1/2;
     grid-column:2/3;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #hero-msg h4{
