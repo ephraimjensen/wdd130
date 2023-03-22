@@ -28,7 +28,7 @@ a{
 .inspire{
     display: block;
    width: 60%;
-   margin: 0 auto;
+
 
 }
 .twothings{
@@ -166,4 +166,7 @@ footer {
 }
 a:visited .denimlink, a:visited .soaplink{
     color: #01016c;
+}
+.nspire{
+    text-align: center;
 }
