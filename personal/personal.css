@@ -178,6 +178,14 @@ a:visited .denimlink, a:visited .soaplink{
     font-size: large;
     text-align: center;
 }
+.copyright{
+    font-family: Gloock, Georgia, serif;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
 
 
 
