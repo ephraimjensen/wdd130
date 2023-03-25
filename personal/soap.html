@@ -16,17 +16,59 @@
         <a target="_blank" href="denim.html">Denim</a>
       </nav>
     </header>
+    <div id="hero">
+      <div id="hero-box">
+          <img id="hero-img" src="images/egg_soap.png" alt="Egg shaped pieces of soap">
+      </div>
+      <section id="hero-msg">
+          <h1 class="home-title">Welcome to my Soap page</h1>
+          <!-- <h4>This is where I put photos and stories about the projects the Jensens have been working on.</h4> -->
+          <div class="button-box">
+
+          </div>
+      </section>
+  </div>
       <main>
-        <img href="images/soap-img1.png">
+        <!-- <img href="images/soap-img1.png">
         <h1>
             Welcome to my Soap page
-        </h1>
-        <img src="images/soap-img2.png" alt="Picture of Soap">
-        <img src="images/dyes.png" alt="Picture of Soap">
-        <img src="images/soapdone.png" alt="Picture of Soap">
-        <h3>
-            I love to make soap. It is easy and fun! I love to add colors, scents, and textures to create fancy and ornate soaps. How? There are two ways to make soap: the cold process and the hot process. I like to make soap using the cold process. Cold process soap is made by warming up oils and fats, mixing in a lye-water solution, and then adding scents and colors.
-        </h3>
+        </h1> -->
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/elephant_soap.png" style="width:100%">
+            <div class="text">Elephant-shaped Soap</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/fancy_gift_soap.png" style="width:100%">
+            <div class="text">Gift Soap</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/heart_soap.png" style="width:100%">
+            <div class="text">Heart-shaped Soap</div>
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+          
+          </div>
+          <br>
+          
+          <div class="dots" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+        <div class="soap-txt-carrier">
+        <p class="soap-page-txt">
+            I love to make soap. It is easy and fun! I love to add colors, scents, and textures to create fancy and ornate soaps.<br> <br> How? <br>There are two ways to make soap: the cold process and the hot process. <br> <br> I like to make soap using the cold process. Cold process soap is made by warming up oils and fats, mixing in a lye-water solution, and then adding scents and colors.
+        </p>
+      </div>
       </main>
     <footer>
         <p>Jensen Creative Works &copy; 2023 - Ephraim Jensen</p>
@@ -43,6 +85,37 @@
             </a>
         </div>
       </footer>
+
+
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+</script>
 
 </body>
 </html>
