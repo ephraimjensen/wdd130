@@ -10,7 +10,7 @@
 
 } */
 
-h1, h3{
+h1, h3, ul{
     font-family: Cinzel Decorative, Verdana, sans-serif;
     color: #01016c;
 
@@ -187,7 +187,23 @@ a:visited .denimlink, a:visited .soaplink{
     padding: 35px;
 }
 
+.center-this{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 55%;
+    margin-bottom: 75px;
 
+}
+#marge{
+    margin-top: 75px;
+}
+.spacing-div{
+    margin-top: 75px;
+}
+ul{
+    font-size: x-large;
+    font-family: Gloock, Georgia, serif;
+}
 
 
 
@@ -219,7 +235,7 @@ img {vertical-align: middle;}
   width: auto;
   padding: 32px;
   margin-top: -22px;
-  color: black;
+  color: #01016c;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -241,7 +257,7 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: black;
+  color: #01016c;
   font-size: 30px;
   padding: 8px 12px;
   position: absolute;
@@ -255,7 +271,7 @@ img {vertical-align: middle;}
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: black;
+  color: #01016c;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
